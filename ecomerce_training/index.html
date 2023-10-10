@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>U-shop</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img style="width: 100px;" src="logo.png" alt="e-commerce website">
+        </div>
+
+        <nav>
+            <ul class="navlinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Others</a></li>
+            </ul>
+        </nav>
+
+        <div class="user-info">
+            <img style="width: 50px; height: 50px; border-radius: 50%;" src="user.jpg" alt="username">
+            <a href=""><i style="font-size: 30px; color: #f1f1f1;" class="fa fa-shopping-cart"> <small id="cart-count">5</small></i></a>
+        </div>
+    </header>
+
+    
+
+    <main>
+        <div class="top-nav">
+            <ul class="categories">
+                <li class="category active">All</li>
+                <li class="category">Shoes</li>
+                <li class="category">Shirts</li>
+                <li class="category">Bags</li>
+                <li class="category">Trousers</li>
+                <li class="category">Accessories</li>
+            </ul>
+        </div>
+
+        <div class="content-container">
+            <div class="filters">
+                <div style="display: flex; justify-content: space-around; width: 100%;">
+                    <a style="color: grey;" href=""><i class="fa fa-filter"></i>  Filter</a>
+                    <a style="color: grey;" href=""><i class="fa fa-refresh"></i>  Refresh</a>
+                </div>
+                <div class="filter-item">
+                    <select name="color" id="color">
+                        <option value="">Color</option>
+                        <option value="Black">Black</option>
+                        <option value="Black">Red</option>
+                        <option value="Black">Maroon</option>
+                        <option value="Black">Yellow</option>
+                        <option value="Black">White</option>
+                        <option value="Black">Green</option>
+                    </select>
+
+                    <select name="price" id="price">
+                        <option value="">Price</option>
+                        <option value="100usd-1000usd">100USD - 1000USD</option>
+                        <option value="200usd-2000usd">200USD - 2000USD</option>
+                        <option value="300usd-3000usd">300USD - 3000USD</option>
+                    </select>
+                </div>
+
+                <div class="filter-item">
+                    <select name="color" id="">
+                        <option value="">Condition</option>
+                        <option value="Used">Used</option>
+                        <option value="New">New</option>
+                        <option value="Refubrished">Refubrished</option>
+                    </select>
+
+                    <select name="price" id="brand">
+                        <option value="">Brand</option>
+                        <option value="Nike">Nike</option>
+                        <option value="Gucci">Gucci</option>
+                        <option value="Jordan">Jordan</option>
+                    </select>
+                </div>
+
+                <div class="filter-item">
+                    <select name="color" id="size">
+                        <option value="">Size</option>
+                        <option value="Black">Large</option>
+                        <option value="Black">E-Large</option>
+                        <option value="Black">Medium</option>
+                        <option value="Black">Small</option>
+                    </select>
+
+                    <select name="price" id="origin">
+                        <option value="">Origin</option>
+                        <option value="USA">USA</option>
+                        <option value="Italy">Italy</option>
+                        <option value="France">France</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="products">
+
+                <div class="product" id="Shoes">
+                    <img src="products/shirt.jpeg" alt="product name">
+                    <div>
+                        <h4>Name</h4>
+                        <span>Price</span>
+                    </div>
+
+                    <button onclick="add_to_cart(1)">Add to cart <i class="fa fa-shopping-cart"></i></button>
+                </div>
+
+                <div class="product" id="category">
+                    <img src="products/shirt.jpeg" alt="product name">
+                    <div>
+                        <h4>Name</h4>
+                        <span>Price</span>
+                    </div>
+
+                    <button onclick="add_to_cart(1)">Add to cart <i class="fa fa-shopping-cart"></i></button>
+                </div>
+
+                <div class="product" id="category">
+                    <img src="products/shirt.jpeg" alt="product name">
+                    <div>
+                        <h4>Name</h4>
+                        <span>Price</span>
+                    </div>
+
+                    <button onclick="add_to_cart(1)">Add to cart <i class="fa fa-shopping-cart"></i></button>
+                </div>
+
+
+                <div class="product" id="category">
+                    <img src="products/shirt.jpeg" alt="product name">
+                    <div>
+                        <h4>Name</h4>
+                        <span>Price</span>
+                    </div>
+
+                    <button onclick="add_to_cart(1)">Add to cart <i class="fa fa-shopping-cart"></i></button>
+                </div>
+
+
+
+                <div class="product" id="category">
+                    <img src="products/shirt.jpeg" alt="product name">
+                    <div>
+                        <h4>Name</h4>
+                        <span>Price</span>
+                    </div>
+
+                    <button onclick="add_to_cart(1)">Add to cart <i class="fa fa-shopping-cart"></i></button>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

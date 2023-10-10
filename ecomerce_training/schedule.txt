@@ -1,0 +1,31 @@
+
+******   Week One  ******************				||			******   Week Two  ****************** 
+								||
+Day one (Monday): Intro to the sessons				||		Day Eight (Monday): Intro to the backend sessons
+	-Design login and sign in pages				||			-Pythond environment and Django Project Setup
+								||			-Implement Sign Up and Log in backend
+								||
+								||
+Day Two (Tuesday): Kick Starting the essentials			||		Day Two (Tuesday): The essentials
+       -Design products page					||			-Products database design and display on the products page
+								||			
+								||
+Day Three (Wednesday): Essentials				||		Day Ten (Wednesday): The Essentials part 2
+       -Design Cart page and Product add form			||			-Applying product filters and Fetching Cart Products
+								||
+								||
+Day Four (Thursday): Wrapping Up the Essentials			||		Day Eleven (Thursday): Handling Payments
+	-Design Check Out and Sucess Pages			||			-Implementing a payment gateway and collecting payments
+								||
+								||		
+Day Five (Friday): Wrapping Up the Frontend			||		Day Twelve (Friday): Introduction To Web Hosting
+	-Design Notifications Display page			||			-Configuring nginx and Apache2 Servers for Web Hosting
+								||			
+Day Six (Saturday): Wekeend					||		Day Thirteen (Saturday): Weekend
+	-							||			-
+								||
+Day Seven (Sunday): Frontend Disscussion			||		Day Fourteen (Sunday): Closing
+	-Interractions regarding the fininshed frontend		||			-Deploying the website to production
+								||			-Closing the sessions			
+
+

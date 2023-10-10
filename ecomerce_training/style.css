@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    font-family: Arial;
+}
+
+a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    background-color: #424947;
+    position: fixed;
+    top: 0;
+}
+
+nav{
+    width: 70%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: black; */
+}
+
+.navlinks li{
+    list-style: none;
+    /* font-weight: bold; */
+}
+
+.user-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+}
+
+
+.user-info i #cart-count{
+    font-size: 13px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    padding: 3px 5px;
+    margin-left: -25%;
+    margin-top: -40%;
+}
+
+
+main{
+    width: 100%;
+}
+
+
+main .top-nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 7% auto;
+    width: 80%;
+
+}
+
+main .top-nav ul li{
+    list-style: none;
+    cursor: pointer;
+    color: #101010;
+
+}
+
+main .top-nav ul .active{
+    border-bottom: solid 2px #424947;
+    padding: 5px;
+    width: 100px;
+    color: #424947;
+    text-align: center;
+}
+
+main .content-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    align-items: flex-start;
+    width: 100%;
+    margin: 2% auto;
+    height: 100%;
+    overflow: scroll;
+    padding: 3% 0;
+}
+
+.content-container .filters{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    background-color: #ccd4d2;
+    height: 70vh;
+    margin-top: 0;
+}
+
+
+.content-container .products{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 3%;
+    width: 60%;
+    height: 100%;
+}
+
+.products .product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px #ccd4d2;
+    padding: 2%;
+}
+
+
+.product img{
+    width: 80%;
+}
+
+
+button{
+    background-color: rgb(71, 72, 82);
+    border: none;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    width: 150px;
+    color: #ffffff;
+}
+
+select{
+    background-color: #ccd4d2;
+    height: 30px;
+    border: solid 1px grey;
+    width: 120px;
+}
